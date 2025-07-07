@@ -1,0 +1,14 @@
+{
+  "overrides": [
+    {
+      "files": "*.ts",
+      "options": {
+        "singleQuote": true,
+        "semi": false,
+        "tabWidth": 2,
+        "trailingComma": "es5",
+        "printWidth": 80
+      }
+    }
+  ]
+}
