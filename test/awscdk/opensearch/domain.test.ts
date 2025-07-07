@@ -13,7 +13,7 @@ describe('OpensearchDomain', () => {
   })
 
   test('should create Opensearch domain with default security settings', () => {
-    const domain = new OpensearchDomain(stack, 'TestDomain', {
+    new OpensearchDomain(stack, 'TestDomain', {
       domainName: 'test-domain',
       version: EngineVersion.OPENSEARCH_1_0,
     })
