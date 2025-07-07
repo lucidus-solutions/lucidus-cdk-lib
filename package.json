@@ -1,5 +1,6 @@
 {
   "name": "lucidus-cdk-lib",
+  "description": "A library of reusable AWS CDK constructs for Lucidus Automation projects.",
   "repository": {
     "type": "git",
     "url": "https://github.com/colemandevries/lucidus-cdk-lib.git"
@@ -29,12 +30,11 @@
     "projen": "npx projen"
   },
   "author": {
-    "name": "Cole DeVries",
-    "email": "colemandevries@gmail.com",
+    "name": "Lucidus Automation",
+    "email": "automation@lucidus.com",
     "organization": false
   },
   "devDependencies": {
-    "@stylistic/eslint-plugin": "^2",
     "@types/jest": "^30.0.0",
     "@types/node": "^24.0.10",
     "@typescript-eslint/eslint-plugin": "^8",
@@ -43,8 +43,10 @@
     "commit-and-tag-version": "^12",
     "constructs": "10.0.5",
     "eslint": "^9",
+    "eslint-config-prettier": "^10.1.5",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-prettier": "^5.5.1",
     "jest": "^30.0.4",
     "jest-junit": "^16",
     "jsii": "~5.8.0",
@@ -52,6 +54,7 @@
     "jsii-docgen": "^10.5.0",
     "jsii-pacmak": "^1.112.0",
     "jsii-rosetta": "~5.8.0",
+    "prettier": "^3.6.2",
     "projen": "^0.94.0",
     "ts-jest": "^29.4.0",
     "ts-node": "^10.9.2",
